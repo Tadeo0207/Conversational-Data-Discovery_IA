@@ -1,0 +1,9 @@
+streamlit
+pandas
+google-genai
+plotly
+openpyxl
+pywebview
+scikit-learn
+matplotlib
+seaborn
