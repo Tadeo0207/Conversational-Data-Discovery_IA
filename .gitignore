@@ -1,0 +1,22 @@
+# Entornos virtuales
+venv/
+.env
+env/
+
+# Archivos de caché de Python
+__pycache__/
+*.pyc
+
+# Archivos de configuración y bases de datos privadas
+config.json
+*.db
+uploads/
+exports/
+*.pdf
+
+# Archivos de depuración y pruebas
+test_*.py
+debug_*.txt
+error_*.txt
+check_db.py
+migrate_*.py
