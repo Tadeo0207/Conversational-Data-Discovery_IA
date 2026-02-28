@@ -36,6 +36,8 @@ En el panel izquierdo de la app, pegá tu clave en el cuadro "Ingresa tu Gemini 
 
 ¡Listo! Ya podés subir tus archivos y empezar a preguntar.
 
+Nota: Si no tenes un archivo para subir, podes buscar un DataSet en la pagina Kaggle.com
+
 ---
 
 ✨ ¿Qué podés hacer con esta herramienta?
@@ -116,3 +118,4 @@ Todo lo que se sube, se chatea y se limpia, vive para siempre.
 ---
 
 **Estado Final:** La arquitectura base de "Chat -> AST Sandboxing -> Auto-corrección -> UI Render" está cimentada fuertemente, convirtiéndola de un simple script a una plataforma madura de nivel empresarial.
+
