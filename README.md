@@ -117,5 +117,8 @@ Todo lo que se sube, se chatea y se limpia, vive para siempre.
 
 ---
 
+LinkedIn: https://www.linkedin.com/in/tadeo-vicente-69631a174/
+
 **Estado Final:** La arquitectura base de "Chat -> AST Sandboxing -> Auto-corrección -> UI Render" está cimentada fuertemente, convirtiéndola de un simple script a una plataforma madura de nivel empresarial.
+
 
