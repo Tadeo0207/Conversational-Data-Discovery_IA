@@ -7,3 +7,5 @@ pywebview
 scikit-learn
 matplotlib
 seaborn
+fpdf2
+SQLAlchemy
