@@ -55,6 +55,9 @@ Nota: Si no tenes un archivo para subir, podes buscar un DataSet en la pagina Ka
 
 🤡 Personalidad propia: Le sumé un toque sarcástico y divertido para cuando el usuario hace consultas fuera del dominio de análisis de datos. (Pregunta sobre una receta de cocina, ¡te va a responder, pero a su manera!)
 
+
+LinkedIn: https://www.linkedin.com/in/tadeo-vicente-69631a174/
+
 ---
 
 ## 🏗️ Arquitectura y Tecnologías Clave
@@ -117,8 +120,7 @@ Todo lo que se sube, se chatea y se limpia, vive para siempre.
 
 ---
 
-LinkedIn: https://www.linkedin.com/in/tadeo-vicente-69631a174/
-
 **Estado Final:** La arquitectura base de "Chat -> AST Sandboxing -> Auto-corrección -> UI Render" está cimentada fuertemente, convirtiéndola de un simple script a una plataforma madura de nivel empresarial.
+
 
 
