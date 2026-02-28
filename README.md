@@ -5,6 +5,55 @@ Bienvenido al registro integral del proyecto "Conversational Data Discovery", un
 Esta herramienta permite a usuarios sin conocimientos de programación cargar enormes volúmenes de datos (Excels, CSVs o Conexiones SQL Directas) y conversar con ellos, limpiarlos automáticamente, generar gráficos interactivos, y exportar reportes ejecutivos en PDF del calibre de las Big Four (KPMG, Deloitte, PwC, EY).
 
 ---
+🚀 Guía de Instalación y Uso Rápido
+Seguí estos pasos para poner la plataforma en marcha en menos de 5 minutos:
+
+1. Descargá el proyecto
+Hacé clic en el botón verde "Code" (arriba a la derecha) y elegí "Download ZIP".
+
+Descomprimí la carpeta en tu computadora.
+
+2. Instalación rápida (Solo la primera vez)
+Si no tenés Python, descargalo gratis de python.org (marcando la casilla "Add Python to PATH" al instalar).
+
+Abrí la carpeta del proyecto, hacé clic derecho en un espacio vacío y elegí "Abrir en la Terminal" (o buscá "CMD" en el inicio).
+
+Escribí este comando y apretá Enter:
+
+Bash
+pip install -r requirements.txt
+
+3. ¡A correr! (El truco del doble clic)
+Para usuarios de Windows: Dentro de la carpeta, creá un archivo de texto, pegale esto: streamlit run main.py, y guardalo con el nombre INICIAR.bat. ¡Ahora solo tenés que hacerle doble clic para abrir la app!
+(Desde la terminal: También podés escribir streamlit run main.py y apretar Enter).
+
+🔑 Cómo activar la Inteligencia
+Una vez que la aplicación se abra en tu navegador:
+
+Conseguí tu clave gratuita en Google AI Studio (botón "Get API Key").
+
+En el panel izquierdo de la app, pegá tu clave en el cuadro "Ingresa tu Gemini API Key".
+
+¡Listo! Ya podés subir tus archivos y empezar a preguntar.
+
+---
+
+✨ ¿Qué podés hacer con esta herramienta?
+💬 Chat interactivo: El usuario hace preguntas naturales y el sistema traduce esa intención en código Python/Pandas o consultas SQL que se ejecutan en el momento.
+
+🤖 Capacidad predictiva: No se queda solo en lo descriptivo. Lo puse a prueba con el clásico dataset del Titanic, donde el asistente pudo procesar los datos, entrenar un modelo de Machine Learning y explicar qué factores (como género o clase) influyeron más en la supervivencia.
+
+📂 Manejo de grandes volúmenes: Optimización en el uso de tokens para procesar archivos de hasta 2.7 millones de filas de forma rápida y eficiente.
+
+🚀 Múltiples Archivos: Permite la carga de múltiples Excel / CSV / DB y cruza los datos para poder conectarlos, limpiarlos y dar respuestas integradas.
+
+📄 Reportes profesionales: Con un clic, genera un PDF de nivel ejecutivo con estadísticas descriptivas, matrices de correlación y conclusiones de negocio listas para compartir.
+
+🛡️ Seguridad ante todo: Implementación de un auditor con la librería ast de Python que escanea cada instrucción generada por la IA para bloquear funciones no permitidas antes de que se ejecuten.
+
+🤡 Personalidad propia: Le sumé un toque sarcástico y divertido para cuando el usuario hace consultas fuera del dominio de análisis de datos. (Pregunta sobre una receta de cocina, ¡te va a responder, pero a su manera!)
+
+---
 
 ## 🏗️ Arquitectura y Tecnologías Clave
 
